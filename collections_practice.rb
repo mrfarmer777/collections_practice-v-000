@@ -12,9 +12,9 @@ def sort_array_desc(array)
 end
 
 def swap_elements(array)
-  temp=array[2]
-  array[2]=array[3]
-  array[3]=temp
+  temp=array[1]
+  array[1]=array[2]
+  array[2]=temp
   return array
 end
 
@@ -24,3 +24,19 @@ def swap_elements_from_to(array,from_ind,to_ind)
   array[to_ind]=temp
   return array
 end
+
+def reverse_array(array)
+  rev=array.reverse
+  return rev
+end
+
+def kesha_maker(coll)
+  res=[]
+  coll.each do |word|
+    word_array=word.split
+    word_array[2]="$"
+    res<<word_array.join
+  end
+  return res
+end
+    
