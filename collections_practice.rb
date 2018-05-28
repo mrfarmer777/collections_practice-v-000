@@ -6,7 +6,7 @@ end
 
 
 def sort_array_desc(array)
-  sorted=array.sorted
+  sorted=array.sort
   sorted.reverse!
   return sorted
 end
