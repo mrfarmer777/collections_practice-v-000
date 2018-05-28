@@ -44,7 +44,7 @@ def sum_array(array)
   array.inject do |sum, num|
     sum+=num
   end
-end  
+end
 
 def add_s(array)
   array.each_with_index.collect{ |word,ind|
