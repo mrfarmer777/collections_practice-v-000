@@ -51,7 +51,6 @@ def fina_a(words)
     if word.start_with?('a')
       return word
     end
-  end
   }
   res
 end
