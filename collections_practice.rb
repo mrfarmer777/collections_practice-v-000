@@ -49,7 +49,7 @@ def find_a(words)
   res=[]
   words.each {|word|
     if word.start_with?('a')
-      return word
+      res<<word
     end
   }
   res
