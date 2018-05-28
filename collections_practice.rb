@@ -47,12 +47,9 @@ end
 
 def find_a(words)
   res=[]
-  words.each {|word|
-    if word.start_with?('a')
-      res<<word
-    end
+  words.find_all {|word|
+    word.start_with?('a')
   }
-  res
 end
 
 def sum_array(array)
