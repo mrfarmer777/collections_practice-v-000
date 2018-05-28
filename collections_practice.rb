@@ -38,7 +38,7 @@ end
 def kesha_maker(coll)
   res=[]
   coll.each do |word|
-    word_array=word.split(""))
+    word_array=word.split("")
     word_array[2]="$"
     res<<word_array.join
   end
