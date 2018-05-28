@@ -39,4 +39,9 @@ def kesha_maker(coll)
   end
   return res
 end
-    
+
+def sum_array(array)
+  array.inject do |sum, num|
+    sum+=num
+  end
+end  
