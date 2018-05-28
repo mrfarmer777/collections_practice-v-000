@@ -45,7 +45,7 @@ def kesha_maker(coll)
   return res
 end
 
-def fina_a(words)
+def find_a(words)
   res=[]
   find_a.each {|word|
     if word.start_with?('a')
